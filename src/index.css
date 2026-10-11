@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F4F1EA;
+    color: #1A1A18;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Embossed 3D Bubble Logo Recreation matching Image 1 */
+.ecosys-bubble-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #EAE5DC;
+  text-shadow:
+    0 2px 0 #D5CFC4,
+    0 4px 0 #BFB8AA,
+    0 6px 12px rgba(0, 0, 0, 0.75),
+    inset 0 2px 4px rgba(255, 255, 255, 0.9);
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Ecosys Apparel",
+  "description": "Modern, minimalist workwear essentials designed for students with an elegant, clean, and sustainable earth-tone aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
